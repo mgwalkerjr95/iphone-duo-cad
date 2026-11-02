@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.DS_Store
+
+# Apple's drawing and anything made from it stay out of the repo
+ref/
+renders/overlay_*.png
+
+# rebuildable or shipped as release assets
+build/*.brep
+build/stl/
+build/iPhone_Duo.step
+build/iPhone_Duo.step.zip
+build/iPhone_Duo.glb
+renders/ortho_*.png
